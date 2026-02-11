@@ -1,0 +1,53 @@
+Este é um modelo de arquivo .gitignore robusto, focado para ambiente de estudo e nas ferramentas que você provavelmente usará durante o curso do Google Cloud:
+Conteúdo do arquivo .gitignore
+Crie um arquivo chamado exatamente .gitignore (com o ponto no início) na raiz da sua pasta e cole o seguinte conteúdo:
+ 
+Plaintext:
+
+
+# --- Segurança e Credenciais (CRÍTICO) ---
+*.pem
+*.key
+*.pub
+*.p12
+*.json
+# Exceção para JSONs que não contenham chaves (se necessário), 
+# mas por padrão, bloqueamos tudo para evitar vazamento de Service Accounts do GCP.
+credentials.json
+client_secret.json
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Ambientes Virtuais e Dependências ---
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# --- Editores de Código ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs e Temporários ---
+*.log
+tmp/
+temp/
+________________________________________
+Como aplicar isso agora?
+1.	Crie o arquivo: No seu terminal, dentro da pasta do repositório, você pode usar o comando: touch .gitignore (Linux/Mac/Git Bash) ou type nul > .gitignore (Windows CMD).
+2.	Edite: Cole o conteúdo acima e salve.
+3.	Suba para o GitHub:
+ 
+Bash
+git add .gitignore
+git commit -m "chore: adiciona .gitignore para proteger credenciais e limpar o repo"
+git push origin main
+
+Nota: Estas instruções de segurança de ambiente foi configurado para que ao baixar as Service Account Keys (chaves JSON) para testar comandos no SDK do Google Cloud (gcloud), por erro as pessoas acabam commitando esses arquivos sem querer. Esse .gitignore bloqueia arquivos .json e .pem justamente para evitar que suas credenciais da nuvem fiquem expostas publicamente no seu GitHub.
