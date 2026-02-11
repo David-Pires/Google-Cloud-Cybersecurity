@@ -1,0 +1,58 @@
+Como gerar uma nova chave SSH?
+
+1. Gerar uma nova chave SSH
+Abra o seu terminal (ou Git Bash no Windows) e execute o seguinte comando, substituindo pelo seu e-mail do GitHub:
+
+Bash
+ssh-keygen -t ed25519 -C "seu-email@exemplo.com"
+Dica: Quando perguntar onde salvar, pressione Enter para aceitar o local padrão.
+
+Passphrase: Você pode inserir uma senha ou deixar em branco (pressionando Enter) para facilitar o acesso.
+
+2. Adicionar a chave ao SSH Agent
+Certifique-se de que o serviço que gerencia suas chaves está rodando:
+
+Bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+3. Adicionar a chave pública ao seu perfil no GitHub
+Agora você precisa dizer ao GitHub quem é você.
+
+Copie o conteúdo da sua chave pública para a área de transferência:
+
+Windows: clip < ~/.ssh/id_ed25519.pub
+
+Mac/Linux: cat ~/.ssh/id_ed25519.pub
+
+Vá para o GitHub, clique na sua foto de perfil > Settings.
+
+No menu lateral esquerdo, clique em SSH and GPG keys.
+
+Clique em New SSH key, dê um nome (ex: "Meu Desktop") e cole o código no campo "Key".
+
+4. Testar a conexão
+Para garantir que tudo deu certo, digite:
+
+Bash
+ssh -T git@github.com
+Você deverá ver uma mensagem de boas-vindas com seu nome de usuário.
+
+5. Configurar o Repositório Local
+Como o seu repositório Google-Cloud-Cybersecurity já existe no GitHub, você precisa conectá-lo ao seu desktop:
+
+No terminal, entre na pasta onde deseja guardar o curso.
+
+Clone o repositório usando o endereço SSH (não o HTTPS):
+
+Bash
+git clone git@github.com:David-Pires/Google-Cloud-Cybersecurity.git
+Entre na pasta: cd Google-Cloud-Cybersecurity
+
+6. Como realizar seus Commits
+Agora, sempre que você terminar uma atividade, os comandos serão:
+
+Bash
+git add .
+git commit -m "Adicionando notas sobre Segurança em Nuvem"
+git push origin main
+Nota de Segurança: Como o repositório é público, nunca suba arquivos que contenham chaves de API, senhas ou credenciais de projetos do Google Cloud que você criar durante o curso.

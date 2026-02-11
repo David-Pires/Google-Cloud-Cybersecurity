@@ -1,0 +1,19 @@
+Basic instructions of how to create a new repository
+
+echo "# Google-Cloud-Cybersecurity" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/David-Pires/Google-Cloud-Cybersecurity.git
+git push -u origin main
+
+
+note: git remote add origin https://github.com/"HERE GOES YOUR REPOSITORY NAME OF YOUR CHOICE"
+
+
+or push an existing repository from the command line
+
+git remote add origin https://github.com/David-Pires/Google-Cloud-Cybersecurity.git
+git branch -M main
+git push -u origin main
