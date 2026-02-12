@@ -14,50 +14,43 @@ This document explores the layered approach to vulnerability management and the 
 
 ## 🛡️ Defense in Depth Model | Modelo de Defesa em Profundidade
 
-### 🇺🇸 English Version
-Defense in depth is a layered approach to vulnerability management that reduces risk by using multiple security controls to protect assets. This strategy improves an organization's **security posture**, which is its ability to manage the defense of its data and assets. The more valuable an asset is, the more advanced its protection should be.
+| Language | Definition | Key Concept |
+| :--- | :--- | :--- |
+| **🇺🇸 English** | A layered approach to vulnerability management that reduces risk by using multiple security controls to protect assets. | **Security Posture**: An organization's ability to manage the defense of its data and assets. |
+| **🇧🇷 Português** | Uma abordagem em camadas para a gestão de vulnerabilidades que reduz riscos ao usar múltiplos controles de segurança para proteger ativos. | **Postura de Segurança**: A capacidade de uma organização de gerenciar a defesa de seus dados e ativos. |
 
-### 🇧🇷 Versão em Português
-A defesa em profundidade é uma abordagem em camadas para a gestão de vulnerabilidades que reduz riscos ao usar múltiplos controles de segurança para proteger ativos. Esta estratégia melhora a **postura de segurança** de uma organização, que é sua capacidade de gerenciar a defesa de seus dados e ativos. Quanto mais valioso um ativo, mais avançada deve ser sua proteção.
-
-
+> **Principle:** The more valuable an asset is, the more advanced its protection should be.
+> **Princípio:** Quanto mais valioso um ativo, mais avançada deve ser sua proteção.
 
 ---
 
 ## ⚙️ Types of Security Controls | Tipos de Controles de Segurança
 
-Security controls are safeguards that reduce security risks.
+Security controls are safeguards that reduce security risks. Common types used in the Cloud include:
 
-| Control Type | Description (EN) | Descrição (PT) | Example |
+| Control Type | Description (EN) | Descrição (PT) | Practical Example |
 | :--- | :--- | :--- | :--- |
-| **Identity** | Authenticates users before access. | Autentica usuários antes do acesso. | Multi-Factor Authentication (MFA). |
-| **Protective** | Shields against malicious attacks. | Protege contra ataques maliciosos. | Antivirus, WAF, IaC policies. |
-| **Network** | Protects access through network paths. | Protege o acesso via rotas de rede. | Firewalls. |
-| **Detective** | Identifies suspicious activity. | Identifica atividades suspeitas. | Intrusion Detection Systems (IDS). |
-| **Responsive** | Uses automation to respond to events. | Usa automação para responder a eventos. | Automatic email notifications of threats. |
-| **Recovery** | Restores access and functionality. | Restaura o acesso e a funcionalidade. | System backups and restoration. |
+| **🆔 Identity** | Authenticates a user before they access resources. | Autentica um usuário antes de acessar recursos. | Multi-Factor Authentication (MFA). |
+| **🛡️ Protective** | Shields against malicious attacks and protects access. | Protege contra ataques maliciosos e blinda o acesso. | Antivirus, WAF, IaC policies. |
+| **🌐 Network** | Protects access through network paths (firewalls). | Protege o acesso através de caminhos de rede. | Cloud Firewalls / VPC Firewalls. |
+| **🔍 Detective** | Identifies suspicious activity if it occurs. | Identifica atividades suspeitas caso ocorram. | Intrusion Detection Systems (IDS). |
+| **🤖 Responsive** | Uses automation to respond to security events. | Usa automação para responder a eventos de segurança. | Automated alert emails / Auto-quarantine. |
+| **🔄 Recovery** | Restores access/functionality in the event of failures. | Restaura acesso/funcionalidade em caso de falhas. | Backups and System Restoration. |
 
 ---
 
 ## 🍅 The Garden Analogy | A Analogia da Horta
 
-### 🇺🇸 English Version
 To visualize how these controls work together, imagine protecting a community garden:
-* **Identity:** Determines who can enter the garden.
-* **Protective:** A fence installed around the perimeter.
-* **Network:** Authorized people receive a key to the gate.
-* **Detective:** A camera installed to monitor activity.
-* **Responsive:** An automatic text message sent if suspicious activity is found.
-* **Recovery:** Mending failures in the fence after an incident.
 
-### 🇧🇷 Versão em Português
-Para visualizar como esses controles trabalham juntos, imagine proteger uma horta comunitária:
-* **Identidade:** Determina quem pode entrar na horta.
-* **Protetivo:** Uma cerca instalada ao redor do perímetro.
-* **Rede:** Pessoas autorizadas recebem uma chave para o portão.
-* **Detectivo:** Uma câmera instalada para monitorar a atividade.
-* **Responsivo:** Uma mensagem de texto automática enviada se algo suspeito for detectado.
-* **Recuperação:** Consertar falhas na cerca após um incidente.
+| Layer | 🇺🇸 English Version | 🇧🇷 Versão em Português |
+| :--- | :--- | :--- |
+| **Identity** | Determines who is able to access the garden. | Determina quem tem permissão para entrar na horta. |
+| **Protective** | A fence installed around the garden's perimeter. | Uma cerca instalada ao redor do perímetro da horta. |
+| **Network** | Giving authorized people a key to the gate. | Dar aos autorizados uma chave para o portão. |
+| **Detective** | A camera to monitor for suspicious activity. | Uma câmera para monitorar atividades suspeitas. |
+| **Responsive** | Receiving an automatic text if a threat is detected. | Receber um SMS automático se uma ameaça for detectada. |
+| **Recovery** | Mending any failures in the fence after an incident. | Consertar qualquer falha na cerca após um incidente. |
 
 ---
 *Reference: Google Cloud Cybersecurity Professional Certificate - Security Principles Module.*
