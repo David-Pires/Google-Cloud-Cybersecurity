@@ -1,0 +1,63 @@
+# Defense in Depth & Security Controls | Defesa em Profundidade e Controles de Segurança
+
+This document explores the layered approach to vulnerability management and the specific types of security controls used to protect cloud assets.
+*Este documento explora a abordagem em camadas para a gestão de vulnerabilidades e os tipos específicos de controles de segurança usados para proteger ativos na nuvem.*
+
+---
+
+## 📍 Table of Contents | Índice
+1. [Defense in Depth Model](#-defense-in-depth-model)
+2. [Types of Security Controls](#-types-of-security-controls)
+3. [The Garden Analogy](#-the-garden-analogy)
+
+---
+
+## 🛡️ Defense in Depth Model | Modelo de Defesa em Profundidade
+
+### 🇺🇸 English Version
+Defense in depth is a layered approach to vulnerability management that reduces risk by using multiple security controls to protect assets. This strategy improves an organization's **security posture**, which is its ability to manage the defense of its data and assets. The more valuable an asset is, the more advanced its protection should be.
+
+### 🇧🇷 Versão em Português
+A defesa em profundidade é uma abordagem em camadas para a gestão de vulnerabilidades que reduz riscos ao usar múltiplos controles de segurança para proteger ativos. Esta estratégia melhora a **postura de segurança** de uma organização, que é sua capacidade de gerenciar a defesa de seus dados e ativos. Quanto mais valioso um ativo, mais avançada deve ser sua proteção.
+
+
+
+---
+
+## ⚙️ Types of Security Controls | Tipos de Controles de Segurança
+
+Security controls are safeguards that reduce security risks.
+
+| Control Type | Description (EN) | Descrição (PT) | Example |
+| :--- | :--- | :--- | :--- |
+| **Identity** | Authenticates users before access. | Autentica usuários antes do acesso. | Multi-Factor Authentication (MFA). |
+| **Protective** | Shields against malicious attacks. | Protege contra ataques maliciosos. | Antivirus, WAF, IaC policies. |
+| **Network** | Protects access through network paths. | Protege o acesso via rotas de rede. | Firewalls. |
+| **Detective** | Identifies suspicious activity. | Identifica atividades suspeitas. | Intrusion Detection Systems (IDS). |
+| **Responsive** | Uses automation to respond to events. | Usa automação para responder a eventos. | Automatic email notifications of threats. |
+| **Recovery** | Restores access and functionality. | Restaura o acesso e a funcionalidade. | System backups and restoration. |
+
+---
+
+## 🍅 The Garden Analogy | A Analogia da Horta
+
+### 🇺🇸 English Version
+To visualize how these controls work together, imagine protecting a community garden:
+* **Identity:** Determines who can enter the garden.
+* **Protective:** A fence installed around the perimeter.
+* **Network:** Authorized people receive a key to the gate.
+* **Detective:** A camera installed to monitor activity.
+* **Responsive:** An automatic text message sent if suspicious activity is found.
+* **Recovery:** Mending failures in the fence after an incident.
+
+### 🇧🇷 Versão em Português
+Para visualizar como esses controles trabalham juntos, imagine proteger uma horta comunitária:
+* **Identidade:** Determina quem pode entrar na horta.
+* **Protetivo:** Uma cerca instalada ao redor do perímetro.
+* **Rede:** Pessoas autorizadas recebem uma chave para o portão.
+* **Detectivo:** Uma câmera instalada para monitorar a atividade.
+* **Responsivo:** Uma mensagem de texto automática enviada se algo suspeito for detectado.
+* **Recuperação:** Consertar falhas na cerca após um incidente.
+
+---
+*Reference: Google Cloud Cybersecurity Professional Certificate - Security Principles Module.*
