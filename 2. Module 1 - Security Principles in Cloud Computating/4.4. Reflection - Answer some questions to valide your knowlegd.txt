@@ -1,0 +1,93 @@
+# Knowledge Check: Cloud Infrastructure | Verificação de Conhecimento: Infraestrutura em Nuvem
+
+This document contains review questions to validate the core concepts of cloud infrastructure, virtualization, and containers.
+*Este documento contém questões de revisão para validar os conceitos centrais de infraestrutura em nuvem, virtualização e containers.*
+
+---
+
+## 📍 Table of Contents | Índice
+1. [English Version](#-english-version)
+2. [Versão em Português](#-versão-em-português)
+
+---
+
+## 🇺🇸 English Version
+
+### Questions
+
+1. **In the cloud, what is the term for computation performed by a physical computer in a remote environment?**
+   - A) Compute
+   - B) An instance
+   - C) Data storage
+   - D) Networks
+
+2. **What is virtualization?**
+   - A) Technology that creates a virtual version of physical infrastructure
+   - B) Technology that works as an abstraction layer between the physical computer and the virtual machine
+   - C) Technology that enables organizations to store digital data off-site
+   - D) Technology that ensures that information in one virtual machine is not visible to others
+
+3. **What are two advantages of packaging software in containers? (Select two)**
+   - A) Containers are easy to modify during their lifetimes.
+   - B) Containers include software and operating systems.
+   - C) Containers enable users to run software quickly from one computing environment to another.
+   - D) Containers use less memory and fewer resources.
+   - E) Containers combine developers and operations teams’ responsibilities.
+
+4. **As a cloud security analyst, you have been hired to assist with a company’s digital transformation. Security is the highest priority. What type of hypervisor should the company choose and why?**
+   - A) An operating system, because it can be used to test code
+   - B) A virtual machine, because it runs an application over the computer’s existing operating system
+   - C) Type 1, because it replaces the operating system of the underlying computer
+   - D) Type 2, because it never interacts with the operating system
+
+---
+
+### 📝 Detailed Explanations (English)
+
+* **Q1 - Correct Answer: A (Compute):** While an *instance* is a specific resource, **Compute** is the general term for the processing power (CPU and RAM) provided by remote physical servers.
+* **Q2 - Correct Answer: A (Technology that creates a virtual version...):** By definition, virtualization is the process of creating virtual representations of hardware. Option B describes a *Hypervisor*, which is the tool used to achieve virtualization, but not the concept itself.
+* **Q3 - Correct Answers: C and D:** Containers are highly **portable** (C) and **efficient** (D) because they do not include a guest OS, unlike VMs. Note: Containers are *immutable* (they shouldn't be modified, making A wrong) and they *separate* responsibilities (making E wrong).
+* **Q4 - Correct Answer: C (Type 1):** Type 1 (Bare Metal) hypervisors run directly on the hardware. This reduces the attack surface because there is no "host OS" that could be compromised, making it the most secure choice for a company prioritizing security.
+
+---
+
+## 🇧🇷 Versão em Português
+
+### Questões
+
+1. **Na nuvem, qual é o termo para a computação executada por um computador físico em um ambiente remoto?**
+   - A) Compute (Processamento)
+   - B) Uma instância
+   - C) Armazenamento de dados
+   - D) Redes
+
+2. **O que é virtualização?**
+   - A) Tecnologia que cria uma versão virtual da infraestrutura física
+   - B) Tecnologia que funciona como uma camada de abstração entre o computador físico e a máquina virtual
+   - C) Tecnologia que permite às organizações armazenar dados digitais fora do local
+   - D) Tecnologia que garante que as informações em uma máquina virtual não sejam visíveis para outras
+
+3. **Quais são as duas vantagens de empacotar software em containers? (Selecione duas)**
+   - A) Containers são fáceis de modificar durante seu tempo de vida.
+   - B) Containers incluem software e sistemas operacionais.
+   - C) Containers permitem que os usuários executem software rapidamente de um ambiente de computação para outro.
+   - D) Containers usam menos memória e menos recursos.
+   - E) Containers combinam as responsabilidades das equipes de desenvolvimento e operações.
+
+4. **Como analista de segurança em nuvem, você foi contratado para auxiliar na transformação digital de uma empresa. A segurança é a prioridade máxima. Que tipo de hypervisor a empresa deve escolher e por quê?**
+   - A) Um sistema operacional, porque pode ser usado para testar código
+   - B) Uma máquina virtual, porque executa um aplicativo sobre o sistema operacional existente do computador
+   - C) Tipo 1, porque substitui o sistema operacional do computador subjacente
+   - D) Tipo 2, porque nunca interage com o sistema operacional
+
+---
+
+### 📝 Explicações Detalhadas (Português)
+
+* **Q1 - Resposta Correta: A (Compute):** Embora uma *instância* seja um recurso específico, **Compute** é o termo geral para o poder de processamento (CPU e RAM) fornecido por servidores físicos remotos.
+* **Q2 - Resposta Correta: A (Tecnologia que cria uma versão virtual...):** Por definição, a virtualização é o processo de criar representações virtuais de hardware. A opção B descreve um *Hypervisor*, que é a ferramenta, mas não o conceito geral.
+* **Q3 - Respostas Corretas: C e D:** Containers são altamente **portáteis** (C) e **eficientes** (D) porque não incluem um SO convidado, ao contrário das VMs. Nota: Containers são *imutáveis* (não devem ser modificados, tornando a A errada) e eles *separam* responsabilidades (tornando a E errada).
+* **Q4 - Resposta Correta: C (Tipo 1):** Hypervisors do Tipo 1 (Bare Metal) rodam direto no hardware. Isso reduz a superfície de ataque pois não existe um "SO hospedeiro" que possa ser comprometido, sendo a escolha mais segura para empresas que priorizam proteção.
+
+---
+*Knowledge Check - Google Cloud Cybersecurity Professional Certificate.*
