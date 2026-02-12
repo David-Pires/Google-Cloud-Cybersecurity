@@ -1,0 +1,49 @@
+# --- Segurança e Credenciais (CRÍTICO) ---
+*.pem
+*.key
+*.pub
+*.p12
+*.json
+# Exceção para JSONs que não contenham chaves (se necessário), 
+# mas por padrão, bloqueamos tudo para evitar vazamento de Service Accounts do GCP.
+credentials.json
+client_secret.json
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Ambientes Virtuais e Dependências ---
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# --- Editores de Código ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs e Temporários ---
+*.log
+tmp/
+temp/
+
+
+
+Como aplicar isso agora?
+
+Crie o arquivo: No seu terminal, dentro da pasta do repositório, você pode usar o comando: touch .gitignore (Linux/Mac/Git Bash) ou type nul > .gitignore (Windows CMD).
+
+Edite: Cole o conteúdo acima e salve.
+
+Suba para o GitHub:
+
+Bash
+git add .gitignore
+git commit -m "chore: adiciona .gitignore para proteger credenciais e limpar o repo"
+git push origin main
