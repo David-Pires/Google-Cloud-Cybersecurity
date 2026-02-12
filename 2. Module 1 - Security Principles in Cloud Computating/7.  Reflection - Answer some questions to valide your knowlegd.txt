@@ -1,0 +1,93 @@
+# Knowledge Check: Cloud Data Storage | Verificação: Armazenamento de Dados
+
+This document contains review questions focused on cloud storage types, data categorization, and developer tools.
+*Este documento contém questões de revisão focadas em tipos de armazenamento em nuvem, categorização de dados e ferramentas de desenvolvedor.*
+
+---
+
+## 📍 Table of Contents | Índice
+1. [English Version](#-english-version)
+2. [Versão em Português](#-versão-em-português)
+
+---
+
+## 🇺🇸 English Version
+
+### Questions
+
+1. **A small independent book publisher considers moving its data storage to the cloud. What are two potential benefits? (Select two)**
+   - A) Ability to pre-buy data in case it needs more than expected.
+   - B) The publisher will maintain the infrastructure needed to host the data.
+   - C) The publisher will save money.
+   - D) The publisher will be able to store more data.
+   - E) Data will only be stored in one location.
+
+2. **What data type includes names, addresses, credit card numbers, and dates?**
+   - A) Repositories
+   - B) Structured data
+   - C) Redundancy
+   - D) Unstructured data
+
+3. **A music recording studio wants to store and organize a large amount of unstructured data (audio files). Which type of cloud storage should they choose?**
+   - A) Buckets
+   - B) Uptime
+   - C) Redundancy
+   - D) File storage
+
+4. **A team of developers is using a centralized place to store, download, and share data. What is this central location called?**
+   - A) A structured database
+   - B) A repository
+   - C) Failure domain
+   - D) Block storage
+
+---
+
+### 📝 Detailed Explanations (English)
+
+* **Q1 - Correct Answers: C and D:** Cloud storage eliminates upfront hardware costs (**Savings**) and allows for massive expansion without buying physical disks (**Scalability**). Options A and B describe the *on-premises* model.
+* **Q2 - Correct Answer: B (Structured data):** Data that fits perfectly into tables (rows/columns) like a spreadsheet is called structured data. It is highly searchable.
+* **Q3 - Correct Answer: A (Buckets):** Audio files are *unstructured* data. In the cloud (specifically Google Cloud), objects like audio/video are stored in virtual containers called **Buckets** (Object Storage).
+* **Q4 - Correct Answer: B (A repository):** Repositories (like GitHub or internal code repos) are the industry-standard central locations for developers to collaborate on and version data.
+
+---
+
+## 🇧🇷 Versão em Português
+
+### Questões
+
+1. **Uma pequena editora independente considera mover seu armazenamento para a nuvem. Quais são dois benefícios potenciais? (Selecione dois)**
+   - A) Capacidade de pré-comprar dados caso precise de mais do que o esperado.
+   - B) A editora manterá a infraestrutura necessária para hospedar os dados.
+   - C) A editora economizará dinheiro.
+   - D) A editora poderá armazenar mais dados.
+   - E) Os dados serão armazenados em apenas um local.
+
+2. **Qual tipo de dado inclui nomes, endereços, números de cartão de crédito e datas?**
+   - A) Repositórios
+   - B) Dados estruturados
+   - C) Redundância
+   - D) Dados não estruturados
+
+3. **Um estúdio de gravação musical quer armazenar e organizar uma grande quantidade de dados não estruturados (arquivos de áudio). Qual tipo de armazenamento em nuvem eles devem escolher?**
+   - A) Buckets
+   - B) Uptime
+   - C) Redundância
+   - D) File storage (Armazenamento de arquivos)
+
+4. **Uma equipe de desenvolvedores está usando um local centralizado para armazenar, baixar e compartilhar dados. Como se chama esse local central?**
+   - A) Um banco de dados estruturado
+   - B) Um repositório
+   - C) Domínio de falha
+   - D) Block storage (Armazenamento em bloco)
+
+---
+
+### 📝 Explicações Detalhadas (Português)
+
+* **Q1 - Respostas Corretas: C e D:** O armazenamento em nuvem elimina custos iniciais de hardware (**Economia**) e permite expansão massiva sem compra de discos físicos (**Escalabilidade**). As opções A e B descrevem o modelo *local*.
+* **Q2 - Resposta Correta: B (Dados estruturados):** Dados que se encaixam perfeitamente em tabelas (linhas/colunas) são chamados de estruturados. São fáceis de pesquisar e organizar.
+* **Q3 - Resposta Correta: A (Buckets):** Arquivos de áudio são dados *não estruturados*. Na nuvem (especialmente no GCP), objetos como áudio/vídeo são guardados em contêineres virtuais chamados **Buckets** (Armazenamento de Objetos).
+* **Q4 - Resposta Correta: B (Um repositório):** Repositórios (como o GitHub) são os locais centralizados padrão da indústria para desenvolvedores colaborarem e versionarem dados e códigos.
+
+---
+*Storage Knowledge Check - Google Cloud Cybersecurity Professional Certificate.*
