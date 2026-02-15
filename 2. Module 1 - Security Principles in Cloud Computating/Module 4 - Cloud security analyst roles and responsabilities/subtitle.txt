@@ -1,0 +1,55 @@
+>> Cloud security analysts have a lot
+of important responsibilities and usually work with a variety of people
+inside and outside of their organizations. To be successful in their role, there
+are many skills they'll need to develop. Learning these skills is like
+adding tools to a tool belt. The more tools you have, the more situations you'll be
+prepared to handle with ease. In this video, we'll explore cloud
+security analysts role within the security ecosystem and
+within their specific organization. We'll also cover the skills you'll use
+to succeed in your responsibilities as a cloud security analyst. Let's review some of cloud security
+analysts responsibilities within the security ecosystem. As a cloud security analyst,
+communicating cloud security concepts to a non technical audience
+is a core responsibility. For example, you might help to train other departments
+in using the companys it assets securely. As a cloud security analyst, you may
+also work with compliance teams to help develop cloud security policies for
+your organization. To do this, you'll need to understand and
+communicate industry security compliance standards to help make sure the
+organization aligns with all the laws and regulations that apply. By keeping your organization's cloud
+assets safe and in compliance, you'll help keep the cloud safer for
+everyone. Next, let's discuss some of the core
+skills you'll need in your role. Developing problem solving and analytical
+thinking skills will be important to your work as a cloud security analyst. Issues can come up suddenly, so you and your team will need
+to work quickly to resolve them. Even if you're working on a new type of
+issue, being able to break it down into smaller parts makes it easier
+to understand the problem. This will help you identify
+the best solution. Being able to do this in different
+situations is a valuable skill that will serve you
+throughout your career. Attention to detail is an important skill
+for a cloud security analyst to have. The difference between normal and abnormal
+activity in cloud resources can be subtle. Cloud security analysts who pick up on
+details can catch and solve problems before they grow into serious issues, and
+that's a huge help to any organization. As a cloud security analyst, you'll be an
+important part of the cloud security team. You'll also work with other
+departments as needed. Because you'll be working with others, collaboration is an important skill you'll
+need to be successful in your role. Next, let's explore some of the technical
+skills cloud security analysts use on the job. As a cloud security analyst, you'll learn
+to define and configure security controls. Security controls are controls that
+safeguard cloud environments from threats and minimize the effects
+of harmful attacks. Security controls include
+antivirus software and firewalls. Another major part of a cloud security
+analyst's role is to conduct network analysis. Analysts configure and use security
+tools to closely monitor and log network activity in the cloud, then receive alerts
+when something appears out of place. Security analysts also use their
+skills to monitor and manage intrusion detection systems, or IDS, and
+intrusion protection systems, or IPS. Intrusion detection systems
+monitor your cloud system for threat actors trying to gain access,
+while intrusion protection systems proactively remove threats
+based on specific rules. Depending on the industry, an organization's cloud system
+may be audited for compliance or security by internal auditing teams or
+external regulatory bodies. Cloud security analysts prepare for audits
+by understanding the audit requirements, identifying weaknesses, and
+implementing necessary solutions. After an audit, they collaborate with
+audit teams to plan for improvement. As a cloud security analyst, there will be
+many opportunities to learn new skills and develop those you already have. And as you develop these skills, you'll be better prepared to handle the
+responsibilities that come with your role. There's no better feeling than knowing
+exactly what to do when a complex security problem arises.
