@@ -1,8 +1,5 @@
 
 
----
-
-### 📝 Sugestão de Atualização para o seu README.md
 
 ```markdown
 # 🚀 Google Cloud Cybersecurity Professional Certificate
