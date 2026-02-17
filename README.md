@@ -2,46 +2,68 @@
 
 ---
 
+### 📝 Sugestão de Atualização para o seu README.md
+
 ```markdown
 # 🚀 Google Cloud Cybersecurity Professional Certificate
 
-Este repositório foi criado para registrar meu progresso, anotações e atividades práticas durante a jornada de obtenção da certificação **Google Cloud Cybersecurity Professional Certificate** via Coursera.
+Este repositório registra minha jornada técnica e estratégica na obtenção do certificado profissional do Google Cloud. Como **Analista de Segurança Sênior**, foco não apenas na implementação, mas na gestão de riscos e governança em ambientes multicloud e híbridos.
 
-O objetivo é consolidar o conhecimento em segurança em nuvem e demonstrar a aplicação prática das ferramentas do Google Cloud Platform (GCP).
-
-## 🛡️ Sobre a Certificação
-O certificado profissional do Google Cloud em Cibersegurança abrange as competências necessárias para identificar riscos, proteger redes e dispositivos, e responder a incidentes. A formação foca em:
-* Fundamentos de Cibersegurança e Redes.
-* Segurança em ambientes de Nuvem (GCP).
-* Linguagens de programação aplicadas à segurança (Python e SQL).
-* **DevSecOps e Automação de Infraestrutura.**
-
-## 🛠️ Habilidades e Domínios Cobertos
-* **IAM & Governança:** Configuração de políticas de acesso e privilégio mínimo.
-* **Segurança de Redes:** Implementação de firewalls, VPCs e monitoramento.
-* **DevSecOps:** Automação de segurança em pipelines CI/CD e cadeias de suprimentos (SLSA).
-* **Infraestrutura como Código (IaC):** Introdução ao gerenciamento via **Terraform**.
-
-## 📚 Sumário de Aprendizado
-
-| Módulo | Status | Destaques |
+## 🎓 Progresso da Certificação
+| Curso | Status | Foco Principal |
 | :--- | :--- | :--- |
-| **1. Fundamentos de Cibersegurança** | ✅ Concluído | Ética, Ameaças e Redes. |
-| **2. Segurança em Redes e Nuvem** | ✅ Concluído | VPCs, Firewalls e IAM. |
-| **3. Ciclo de Vida (DevSecOps)** | 🚀 Concluído | CI/CD, IaC (Terraform) e SLSA. |
-| **4. Python para Cibersegurança** | ⏳ Aguardando | Automação e Scripting. |
+| **1. Foundations of Cloud Computing** | ✅ Concluído | VPCs, IAM, IaC (Terraform) e DevSecOps. |
+| **2. Cloud Security Risk Management** | 🎯 Em Início | Frameworks de Risco, Compliance e Governança. |
+| **3. Security Controls & Incident Response** | ⏳ Próximo | Detecção de Ameaças e Resposta a Incidentes. |
 
 ---
 
-## 🔬 Laboratórios e Práticas Recentes (Módulo 3)
-* **Análise de IaC (Cymbal Bank):** Revisão de arquivos Terraform para detecção de *Configuration Drift*.
-* **Security Scanning:** Conceitos de integração de scans automatizados em pipelines.
-* **Software Supply Chain:** Estudo do framework SLSA e proteção de artefatos.
+## 🛡️ Domínios Técnicos Consolidados (Cursos 1 e 2)
 
-## 🔗 Links
-* **Coursera:** [Perfil Coursera](https://www.coursera.org/user/7b78299469bdcba439812bd5c345a4db)
+### 🏗️ Infraestrutura e Redes (Módulos 1-4)
+* **VPC & Firewall:** Segmentação de redes customizadas e regras de filtragem (Ingress/Egress).
+* **Identity & Access Management (IAM):** Implementação de privilégio mínimo e gestão de service accounts.
+* **Ferramentas:** Domínio de `gcloud CLI`, `Cloud Shell` e análise de pacotes com `Wireshark`.
+
+
+
+### 🚀 Automação e DevSecOps
+* **Infrastructure as Code (IaC):** Provisionamento seguro e detecção de *Configuration Drift* via **Terraform**.
+* **Software Supply Chain:** Segurança em pipelines CI/CD utilizando o framework **SLSA**.
+
+
+
+### ⚖️ Gestão de Risco e Compliance (Curso 2 - Atual)
+* **Risk Frameworks:** Identificação e mitigação de ameaças baseadas em modelos de negócio.
+* **Shared Responsibility:** Gestão estratégica das obrigações entre cliente e CSP.
+* **Auditoria:** Preparação de evidências e conformidade com leis e regulações (GDPR/LGPD).
+
+---
+
+## 🔬 Laboratórios e Atividades Práticas Recentes
+
+* **[LAB] Create a VPC using Cloud Shell:** Implementação de rede customizada para o cenário do *Cymbal Bank*.
+* **[AUDIT] Terraform Review:** Análise de vulnerabilidades em scripts de automação.
+* **[RISK] Framework Analysis:** (Próxima atividade) Mapeamento de riscos em infraestruturas híbridas.
+
+---
+
+## 🛠️ Stack de Ferramentas
+`Linux (Debian/Ubuntu)` | `Google Cloud SDK (gcloud)` | `Terraform` | `Wireshark` | `VirusTotal` | `Lucidchart`
+
+---
+
+## 🔗 Conecte-se comigo
 * **LinkedIn:** [David Pires Silva](https://www.linkedin.com/in/david-pires-silva/)
+* **DMZ Simulados:** [Cursos e Simulados](https://www.udemy.com/user/david-pires-2/)
 
 ```
 
 ---
+
+### 💡 O que mudou e por que?
+
+1. **Ajuste no Sumário:** O Curso 2 é focado em **Risk Management**. Atualizei o status para mostrar que você está entrando em uma fase de "Estratégia".
+2. **Seção de Gestão de Risco:** Adicionei os novos tópicos que você verá agora (Frameworks, Compliance, Auditoria). Isso mostra que você entende o lado "negócio" da segurança.
+3. **Habilidades Sênior:** Mantive a menção ao seu papel sênior e ao Terraform, que são seus diferenciais.
+4. **Imagens:** Recomendei a inclusão de diagramas de arquitetura VPC e Pipelines, que valorizam muito o README visualmente para recrutadores.
