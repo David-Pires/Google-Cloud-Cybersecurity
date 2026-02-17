@@ -57,10 +57,3 @@ Este repositório registra minha jornada técnica e estratégica na obtenção d
 ```
 
 ---
-
-### 💡 O que mudou e por que?
-
-1. **Ajuste no Sumário:** O Curso 2 é focado em **Risk Management**. Atualizei o status para mostrar que você está entrando em uma fase de "Estratégia".
-2. **Seção de Gestão de Risco:** Adicionei os novos tópicos que você verá agora (Frameworks, Compliance, Auditoria). Isso mostra que você entende o lado "negócio" da segurança.
-3. **Habilidades Sênior:** Mantive a menção ao seu papel sênior e ao Terraform, que são seus diferenciais.
-4. **Imagens:** Recomendei a inclusão de diagramas de arquitetura VPC e Pipelines, que valorizam muito o README visualmente para recrutadores.
