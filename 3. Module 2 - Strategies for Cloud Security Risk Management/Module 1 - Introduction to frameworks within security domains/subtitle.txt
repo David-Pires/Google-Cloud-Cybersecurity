@@ -1,0 +1,56 @@
+Cloud computing and
+security controls will differ for an organization. Since Cloud computing
+is different from an on premises deployment, Cloud security controls
+will also differ. In this video, we'll review
+Cloud security controls and how to determine which controls should be implemented
+to reduce risk. Remember, Cloud
+security controls are measures that safeguard Cloud environments
+from threats by reducing the likelihood and
+impact of harmful attacks. There are three types of
+cybersecurity controls, technical, administrative,
+and physical. Technical controls
+include hardware and software used
+to protect assets. Administrative controls
+include policies, procedures and guidelines put into place to protect assets? Physical controls include
+any concrete means of preventing or detecting unauthorized access
+to facilities, systems, or assets like gates and locks or key
+cards to enter a building? As a Cloud security
+professional, when you properly implement
+security controls, you help safeguard Cloud environments from
+vulnerabilities, minimize the effects
+of harmful attacks, meet and maintain your
+organization's compliance goals. Security controls are
+a central element of any Cloud computing strategy, so how do you decide which
+controls to use and when? As you may recall,
+threat modeling is the process of
+identifying assets, their vulnerabilities,
+and how each is exposed to threats.
+Here's a pro tip. Conduct a threat
+model to identify the right controls
+for the threats your organization faces. This will help the
+Cloud security team save time and money. If a threat is related to a low probability or
+a low impact risk, then the organization
+can accept the risk, or it can be transferred instead of mitigated
+by a control. An organization can
+transfer risk by buying a cyber insurance
+policy that helps cover this risk or transferring the risk to the user in the
+terms of service agreement. For threat modeling, you can use an existing threat
+model methodology to identify threats across
+common threat categories. Then you can select controls to address the threats
+that you've identified. For example, if you
+identify an attack risk that threatens proper
+authentication in your threat model, you might choose a control like second factor
+authentication using a key to help
+prevent the attack. After applying controls based on the threat model and
+standards and regulations, there may be some remaining
+risk or residual risk. Residual risk can be
+accepted or reduced. If the team accepts any
+residual risk that remains, there is a possibility that the business might fail to meet necessary compliance with the required standard
+of regulation. If an organization is unable
+to show they are compliant, they risk fines and civil
+and criminal penalties. The organization might also be unable to sign contracts with partners or customers that require standards
+or regulations. By threat modeling
+and checking that you've met compliance
+control standards, you can implement the
+necessary controls to reduce risk to an
+acceptable level.
