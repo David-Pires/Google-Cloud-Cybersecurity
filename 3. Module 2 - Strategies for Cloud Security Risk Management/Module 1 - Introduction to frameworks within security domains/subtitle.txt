@@ -1,0 +1,55 @@
+Imagine you're going rock climbing. Your plan is to have fun, but
+you also know there are risks involved. To keep yourself safe, you pack all
+the safety gear you can, like a harness, a helmet, ropes, and hooks. Just as in climbing, risk management
+also needs proper safety measures. As a cloud security professional,
+you'll be responsible for protecting vulnerable assets. This means you'll need
+to understand risk and know how to reduce it to meet your
+security and compliance standards. In this video, we'll explore risk and
+how it relates to compliance. First, let's review risk. Risk is the measure of how much a threat
+impacts the confidentiality, integrity, and availability of an asset. Common examples of risk include data loss,
+data leakage, and data corruption. Data loss happens when data is deleted
+without authorization due to either a mistake by an authorized user or
+an intentional action by a threat actor, resulting in a breach in
+availability of data. Data leakage happens when sensitive
+data is handled improperly or when threat actors,
+entities imposing a threat, get access, resulting in a breach of confidentiality
+and sharing with other unauthorized users. And data corruption happens when data is
+either changed because of an unauthorized user or a system malfunction,
+resulting in a breach of quality or trustworthiness of data. Now that we reviewed risk, let's
+explore its relationship with threat, vulnerability, likelihood, and impact. Remember, a threat is any situation or circumstance that can
+negatively impact assets. Vulnerabilities are weaknesses that
+can be exploited by threat actors. Likelihood is the probability that
+a vulnerability will be exploited by a threat actor and includes
+the extent of the impact of the threat. For example, if an organization has
+a poorly configured access management system, a lot of employees may have
+access to more sensitive corporate data than they need to do their job. This means there's a likelihood that
+a threat actor could compromise employees' accounts, which could lead
+to a major data breach. One method of determining the level
+of risk is to rank the likelihood of an attack and
+the severity of the impact or outcome. This can help to determine if the level
+of risk is low, medium, or high. Analyzing risks, their likelihood and impact will help you
+decide the best controls to put in place. As a cloud security professional,
+youll be responsible for reducing risk to an acceptable
+level called the risk appetite for your organizations cloud assets. The risk appetite is the amount of risk
+an organization is willing to take and still meet organizational needs. It could also be described as the maximum
+amount of residual risk an organization will accept after controls and
+other measures have been put in place. Determining the level of risk will help
+you to determine the risk appetite. So how does risk relate to compliance? Compliance certification is proof that you
+meet established industry regulations and standards to protect your
+organization from risks. Compliance proves that an organization
+is following the rules. A lot of compliance certifications are
+renewed regularly or whenever a new law or regulation version is published, or when security controls of a system
+have changed significantly. Compliance certifications focus on
+gathering evidence that security controls are in place at or over a specific time
+period specified in the audit protocol. Meeting compliance requirements is
+a risk mitigation activity, but risk management doesn't
+stop at compliance alone. To more fully handle risk management, a security team needs to also assess
+security systems for vulnerability. Often, security is an ongoing, real time
+evaluation of the threat landscape, and the state of control is
+to address those threats. Security also includes vulnerability
+scanning control, health monitoring, and log reviews. Now that you know more about
+the relationship between risks, threats, vulnerabilities, likelihood, and impact, you can be better prepared to
+protect vulnerable assets. Just like you would plan to protect
+yourself if you were to go on a rock climbing trip. Planning for potential risk factors is
+a valuable skill that will help you be a more effective cloud
+security professional.
