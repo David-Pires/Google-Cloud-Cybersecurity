@@ -1,0 +1,50 @@
+
+
+# 🕵️ Detecção de Intrusão e Gestão de Incidentes | Intrusion Detection & Incident Management
+
+### 1. Detecção de Intrusão (IDS) | Intrusion Detection
+
+**🇺🇸 English:** Intrusion detection involves monitoring network traffic and system activities for malicious transactions or policy violations. You will learn about:
+
+* **Host-based IDS (HIDS):** Monitoring a specific device or virtual machine.
+* **Network-based IDS (NIDS):** Analyzing traffic across the entire cloud network.
+* **Monitoring Methods:** Setting up alerts to identify threats before they escalate into full breaches.
+
+**🇧🇷 Português:** A detecção de intrusão envolve monitorar o tráfego de rede e as atividades do sistema em busca de transações maliciosas ou violações de política. Você aprenderá sobre:
+
+* **IDS baseado em Host (HIDS):** Monitoramento de um dispositivo ou máquina virtual específica.
+* **IDS baseado em Rede (NIDS):** Análise do tráfego em toda a rede na nuvem.
+* **Métodos de Monitoramento:** Configuração de alertas para identificar ameaças antes que se tornem violações totais.
+
+---
+
+### 2. O Processo de Gestão de Incidentes | Incident Management Process
+
+Quando um alerta é disparado, o protocolo de gestão de incidentes entra em ação. O objetivo é minimizar danos e aprender com o evento.
+
+| 🇺🇸 Phase | 🇧🇷 Fase | 💡 Ação / Action |
+| --- | --- | --- |
+| **Report** | **Relatar** | Notificar as partes interessadas e registrar o início do incidente. |
+| **Investigate** | **Investigar** | Analisar logs e evidências para entender a origem e a extensão do ataque. |
+| **Resolve** | **Resolver** | Erradicar a ameaça e restaurar os serviços ao estado seguro. |
+| **Minimize Damage** | **Minimizar Danos** | Isolar sistemas afetados para evitar que o ataque se espalhe (contenção). |
+
+---
+
+### 3. Prevenção de Futuras Violações | Preventing Future Breaches
+
+**🇺🇸 English:** A critical part of incident management is the **Post-Mortem** or **Lessons Learned** phase. By investigating exactly how a breach happened, security teams can implement new controls to ensure that a similar vulnerability is never exploited again. This turns every incident into a step toward a more resilient environment.
+
+**🇧🇷 Português:** Uma parte crítica da gestão de incidentes é a fase de **Post-Mortem** ou **Lições Aprendidas**. Ao investigar exatamente como uma violação ocorreu, as equipes de segurança podem implementar novos controles para garantir que uma vulnerabilidade semelhante nunca seja explorada novamente. Isso transforma cada incidente em um passo em direção a um ambiente mais resiliente.
+
+---
+
+## 🛡️ Insight do Analista | Analyst's Insight
+
+**🇺🇸 English:**
+Efficiency in incident response is measured by **MTTD (Mean Time to Detect)** and **MTTR (Mean Time to Respond)**. In the cloud, automation is your best friend. Setting up automated alerts that trigger immediate containment actions (like disabling a compromised service account) can reduce your MTTR from hours to seconds.
+
+**🇧🇷 Português:**
+*A eficiência na resposta a incidentes é medida pelo **MTTD (Tempo Médio de Detecção)** e **MTTR (Tempo Médio de Resposta)**. Na nuvem, a automação é sua melhor amiga. Configurar alertas automatizados que disparam ações de contenção imediatas (como desativar uma conta de serviço comprometida) pode reduzir seu MTTR de horas para segundos.*
+
+---
