@@ -1,63 +1,70 @@
 
-
 ---
 
 # 🚀 Google Cloud Cybersecurity Professional Certificate
 
-Este repositório registra minha jornada técnica e estratégica na obtenção do certificado profissional do Google Cloud. Como **Analista de Segurança**, foco na implementação técnica, gestão de riscos proativa e governança em ambientes multicloud e híbridos.
+**🇺🇸 English:** This repository documents my technical and strategic journey in obtaining the Google Cloud Professional Certificate. As a **Senior Security Analyst**, I focus on technical implementation, proactive risk management, and governance in multi-cloud and hybrid environments.
 
-## 🎓 Progresso da Certificação
+**🇧🇷 Português:** Este repositório registra minha jornada técnica e estratégica na obtenção do certificado profissional do Google Cloud. Como **Analista de Segurança Sênior**, foco na implementação técnica, gestão de riscos proativa e governança em ambientes multicloud e híbridos.
 
-| Curso | Status | Foco Principal |
+---
+
+## 🎓 Certification Progress / Progresso da Certificação
+
+| Course / Curso | Status | Main Focus / Foco Principal |
 | --- | --- | --- |
-| **1. Foundations of Cloud Computing** | ✅ Concluído | VPCs, IAM, IaC (Terraform) e DevSecOps. |
-| **2. Cloud Security Risk Management** | ✅ Concluído | Frameworks de Risco (NIST), Compliance e Shared Fate. |
-| **3. Security Controls & Incident Response** | ✅ Concluído | SecOps, Logging, IDS/IPS e Ciclo NIST. |
+| **1. Foundations of Cloud Computing** | ✅ | VPCs, IAM, IaC (Terraform), DevSecOps. |
+| **2. Cloud Security Risk Management** | ✅ | Risk Frameworks (NIST), Compliance, Shared Fate. |
+| **3. Security Controls & Incident Response** | ✅ | SecOps, Logging, IDS/IPS, NIST Lifecycle. |
+| **4. Detect, Respond, and Recover** | ✅ | BCDR, RPO/RTO, Playbooks, Backup & DR. |
+| **5. Prepare for a Cloud Security Job** | 🔄 | Portfolio, Capstone Project, Technical Interviews. |
 
 ---
 
-## 🛡️ Domínios Técnicos Consolidados
+## 🛡️ Technical Domains / Domínios Técnicos
 
-### ⚖️ Gestão de Risco e Governança (Curso 2)
+### 🔄 Resilience & Continuity / Resiliência e Continuidade (Course 4)
 
-* **Shared Fate Model:** Transição do modelo de responsabilidade para uma parceria ativa com o CSP, utilizando o **Risk Protection Program**.
-* **Organization Policy Service:** Implementação de *guardrails* proativos (Boolean e List Constraints).
-* **Soberania Digital:** Configuração de **Assured Workloads** e restrições de localização para conformidade (GDPR/LGPD).
+* **BCDR Strategies:** Implementation of Business Continuity (productivity) and Disaster Recovery (infrastructure) protocols.
+* **Recovery Metrics (RPO/RTO):** Defining data loss thresholds (Recovery Point Objective) and downtime limits (Recovery Time Objective).
+* **DR Patterns:** Designing recovery environments using **Cold, Warm, and Hot Site** patterns.
+* **Google Cloud Backup and DR:** Centralized management for **Compute Engine** snapshots and **Cloud SQL** protection.
 
-### 🔍 SecOps & Detecção de Ameaças (Curso 3)
+### 🔍 SecOps & Threat Detection / SecOps e Detecção (Course 3)
 
-* **Cloud Logging & Retention:** Gestão do ciclo de vida de logs (**Admin Activity, Data Access, System Event, Policy Denied**) com retenção estratégica e roteamento via **Log Sinks** (BigQuery/GCS).
-* **Intrusion Detection (IDS):** Implementação de **Cloud IDS** utilizando tecnologia **App-ID™** para identificar ameaças disfarçadas, comparando detecção baseada em assinaturas vs. anomalias.
-* **Incident Response Lifecycle (NIST):** Aplicação das fases de **Preparação, Detecção/Análise, Contenção/Erradicação e Recuperação** em cenários de nuvem.
-* **Event Threat Detection:** Monitoramento contínuo via **Security Command Center (SCC)** para identificar comportamentos suspeitos como *Project Ownership Invites* ou mineradores de cripto.
-
-### 🏗️ Infraestrutura e Redes
-
-* **VPC & Firewall:** Segmentação de redes customizadas e regras de filtragem (Ingress/Egress).
-* **Identity & Access Management (IAM):** Auditoria com **Policy Analyzer** e mitigação de ataques de escalada de privilégio.
-* **Monitoring & Alerting:** Configuração de políticas de alerta baseadas em métricas (CPU/Latência) e logs (Acessos não autorizados) para reduzir a **Fadiga de Alertas**.
+* **Cloud Logging:** Life-cycle management of Audit Logs (**Admin Activity, Data Access, Policy Denied**) via **Log Sinks**.
+* **Intrusion Detection (IDS):** Deployment of **Cloud IDS** with **App-ID™** technology for signature and anomaly-based detection.
+* **Incident Response:** Applying the NIST phases (**Preparation, Detection, Containment, Eradication, and Recovery**) in cloud scenarios.
 
 ---
 
-## 🔬 Laboratórios e Atividades Práticas de Destaque
+## 🔬 Practical Labs & Hands-on / Atividades Práticas
 
-* **[SECOPS] Event Threat Detection:** Investigação de alertas de IAM no SCC utilizando **Logs Explorer** para identificar tentativas de alteração de posse de projetos.
-* **[INCIDENT] Crypto-Miner Response:** Simulação de contenção de mineradores de criptomoeda através de isolamento de rede e reset de tokens OAuth.
-* **[LOGGING] Log Sink Architecture:** Configuração de roteamento de logs de auditoria para o **BigQuery** para análise forense e para o **Cloud Storage** para conformidade de longo prazo.
-* **[DETECTION] Cloud IDS Deployment:** Implementação de espelhamento de tráfego para inspeção profunda de pacotes e detecção de ameaças de dia zero.
-
----
-
-## 🛠️ Stack de Ferramentas
-
-`Google Cloud SCC` | `Chronicle SIEM` | `Cloud IDS` | `Cloud Logging` | `Org Policy Service` | `Assured Workloads` | `Terraform` | `gcloud CLI` | `BigQuery`
+* **[RECOVERY] Cross-Project VM Restoration:** Restoring Compute Engine instances across different GCP projects by configuring **Service Accounts** and cross-project IAM roles.
+* **[BCDR] Backup Plan Templates:** Creating "Production to Snapshot" backup policies with continuous scheduling to ensure data integrity.
+* **[INCIDENT] Crypto-Miner Response:** Simulating containment of unauthorized crypto-miners through network isolation and OAuth token resets.
+* **[DETECTION] Cloud IDS Deployment:** Implementing traffic mirroring for deep packet inspection and zero-day threat detection.
 
 ---
 
-## 🔗 Conecte-se comigo
+## 🛠️ Tool Stack / Ferramentas
+
+`Google Cloud Backup and DR` | `Cloud Load Balancing` | `Terraform` | `Cloud IDS` | `Chronicle SIEM` | `gcloud CLI` | `Security Command Center (SCC)`
+
+---
+
+## 💼 Current Focus / Foco Atual (Course 5)
+
+**🇺🇸 English:** Currently developing the **Capstone Project**: A comprehensive simulation integrating secure architecture, threat detection, and a full recovery plan.
+**🇧🇷 Português:** Atualmente desenvolvendo o **Projeto Capstone**: Uma simulação completa integrando arquitetura segura, detecção de ameaças e um plano de recuperação total.
+
+---
+
+## 🔗 Connect / Contato
 
 * **LinkedIn:** [David Pires Silva](https://www.linkedin.com/in/david-pires-silva/)
-* **DMZ Simulados:** [Cursos e Simulados](https://www.udemy.com/user/david-pires-2/)
+* **DMZ Simulados:** [Cursos e Simulados (Udemy)](https://www.udemy.com/user/david-pires-2/)
 
 ---
+
 
