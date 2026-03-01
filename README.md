@@ -3,9 +3,9 @@
 
 # 🚀 Google Cloud Cybersecurity Professional Certificate
 
-**🇺🇸 English:** This repository documents my technical and strategic journey in obtaining the Google Cloud Professional Certificate. As a **Senior Security Analyst**, I focus on technical implementation, proactive risk management, and governance in multi-cloud and hybrid environments.
+**🇺🇸 English:** This repository documents my technical and strategic journey in obtaining the Google Cloud Professional Certificate. As a **Security Analyst**, I focus on technical implementation, proactive risk management, and governance in multi-cloud and hybrid environments.
 
-**🇧🇷 Português:** Este repositório registra minha jornada técnica e estratégica na obtenção do certificado profissional do Google Cloud. Como **Analista de Segurança Sênior**, foco na implementação técnica, gestão de riscos proativa e governança em ambientes multicloud e híbridos.
+**🇧🇷 Português:** Este repositório registra minha jornada técnica e estratégica na obtenção do certificado profissional do Google Cloud. Como **Analista de Segurança**, foco na implementação técnica, gestão de riscos proativa e governança em ambientes multicloud e híbridos.
 
 ---
 
