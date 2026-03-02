@@ -31,7 +31,7 @@
 
 ### 🔄 Resilience & Continuity (BCDR)
 
-![BCPP]()
+![BCPP](https://github.com/David-Pires/Google-Cloud-Cybersecurity/blob/main/7.%20Assets/Screenshot_9.jpg)
 
 * **Strategies:** Implementation of Business Continuity (BC) and Disaster Recovery (DR) protocols.
 * **Metrics:** Expert handling of **RPO/RTO** thresholds and **DR Patterns** (Cold, Warm, Hot Sites).
